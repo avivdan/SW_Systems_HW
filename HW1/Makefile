@@ -4,7 +4,7 @@ AR = ar
 
 all : mymathd.so mymaths.a maind mains
 mymaths: mymaths.a
-mymathd: mymaths.so
+mymathd: mymathd.so
 
 #static
 mains: main.o mymaths.a
