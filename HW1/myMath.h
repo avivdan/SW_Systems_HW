@@ -7,5 +7,6 @@ double mul(double x, int y);
 double div(double x, int y);
 double exponent(int x);
 double power(double x, int y);
+int mathFloor(double x);
 
 #endif
