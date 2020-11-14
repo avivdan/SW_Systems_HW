@@ -8,7 +8,8 @@ int main(){
 	printf("insert real number to get : f(X) = e^x +x^3 -2:- \n");
 	scanf("%lf",&a);
 	double StExp, StPow, StVar, St;
-	StExp = exponent((int)a);
+	int floor = mathFloor(a);
+	StExp = exponent(floor);
 	StPow = power(a,3);
 	StVar = add(StPow, StExp);
 	St = sub(StVar, 2);
