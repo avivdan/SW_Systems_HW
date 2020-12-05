@@ -5,7 +5,10 @@ AR = ar
 all : mymathd.so mymaths.a maind mains
 mymaths: mymaths.a
 mymathd: mymathd.so
+<<<<<<< HEAD
 
+=======
+>>>>>>> 605165372d0998c4d9a8ecb0a528faec2c947b03
 
 #static
 mains: main.o mymaths.a

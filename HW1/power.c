@@ -31,6 +31,7 @@ double power(double x, int y){
 	    	return b;
 	}
 	
+<<<<<<< HEAD
 }
 int mathFloor(double x){
 	int a = (int)x;
@@ -42,3 +43,17 @@ int mathFloor(double x){
 		return a;
 	}
 }
+=======
+}
+int mathFloor(double x){
+	int a = (int)x;
+	if(x>=0){
+		return a;
+	}else if(a-x>0.01){
+		return a-1;
+	}else{
+		return a;
+	}
+
+}
+>>>>>>> 605165372d0998c4d9a8ecb0a528faec2c947b03
