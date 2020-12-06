@@ -167,7 +167,7 @@ void Exit()
 char getOption()
 {
     char operator;
-    printf("start- ");
+    printf("Please choose a transaction type:\nO-Open Account\nB-Balance Inquiry\nD-Deposit\nW-Withdrawal\nC-Close Account\nI-Interest\nP-Print\nE-Exit\n");
     scanf(" %c", &operator);
     return operator;
 }
