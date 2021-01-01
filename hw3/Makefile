@@ -20,5 +20,5 @@ txtfind.o: txtfind.c
 .PHONY: clean
 
 clean:
-	rm -f *.o mains
+	rm -f *.o mainso mainsf
 	
