@@ -1,2 +1,2 @@
 # SW_Systems_HW
-Home-work of SW Systems 
+This is my HomeWork in C class.
